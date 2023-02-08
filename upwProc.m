@@ -218,7 +218,7 @@ for nt = 1:4
 
     set(gcf, 'Position', get(0, 'Screensize')); % Set figure's window fullscreen
 
-    export_fig([outputFolder ['meanwE' char(season(1,nt))]], '-png', '-transparent');   % Export figure
+    export_fig([outputFolder ['meanwE' char(season(1,nt))]], '-png');   % Export figure
 end
 
 % % Spatial correlation plot
@@ -248,7 +248,7 @@ colormap (cmap);
 
 set(gcf, 'Position', get(0, 'Screensize')); % Set figure's window fullscreen
 
-export_fig([outputFolder ['corrcoef2']], '-png', '-transparent');   % Export figure
+export_fig([outputFolder ['corr_sstwnd']], '-png');   % Export figure
 
 %% Subset
 [~,latOceMin] = min(abs(latOce(:,1)-n));
