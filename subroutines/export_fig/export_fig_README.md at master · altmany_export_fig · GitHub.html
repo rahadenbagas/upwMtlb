@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://github.com/altmany/export_fig/blob/master/README.md -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com/">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com/">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" href="./export_fig_README.md at master · altmany_export_fig · GitHub_files/frameworks-4324702744188e5d6edc78c06517458705b8d6596db5054c244444b56c494c99.css" integrity="sha256-QyRwJ0QYjl1u3HjAZRdFhwW41llttQVMJEREtWxJTJk=" media="all" rel="stylesheet">
+  <link crossorigin="anonymous" href="./export_fig_README.md at master · altmany_export_fig · GitHub_files/github-b078f0fd5c95a56ca2d97a8a9664a29ac142ede68343e24bf68d7b01c9ba807d.css" integrity="sha256-sHjw/VyVpWyi2XqKlmSimsFC7eaDQ+JL9o17Acm6gH0=" media="all" rel="stylesheet">
+  
+  
+  <link crossorigin="anonymous" href="./export_fig_README.md at master · altmany_export_fig · GitHub_files/site-c4748fc03140e36d8d53841816bcb11e953179476d44526d62513a8520fd7365.css" integrity="sha256-xHSPwDFA422NU4QYFryxHpUxeUdtRFJtYlE6hSD9c2U=" media="all" rel="stylesheet">
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>export_fig/README.md at master · altmany/export_fig · GitHub</title>
+  <link rel="search" type="application/opensearchdescription+xml" href="https://github.com/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta content="https://avatars2.githubusercontent.com/u/10243182?v=4&amp;s=400" property="og:image"><meta content="GitHub" property="og:site_name"><meta content="object" property="og:type"><meta content="altmany/export_fig" property="og:title"><meta content="https://github.com/altmany/export_fig" property="og:url"><meta content="export_fig - A MATLAB toolbox for exporting publication quality figures" property="og:description">
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="E861:26A3F:4AC587:747B4D:59775CA5" data-pjax-transient="">
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient="">
+
+  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+<meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host"><meta content="github" name="octolytics-app-id"><meta content="https://collector.githubapp.com/github-external/browser_event" name="octolytics-event-url"><meta content="E861:26A3F:4AC587:747B4D:59775CA5" name="octolytics-dimension-request_id"><meta content="sea" name="octolytics-dimension-region_edge"><meta content="iad" name="octolytics-dimension-region_render">
+<meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location">
+
+
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+  
+
+      <meta name="hostname" content="github.com">
+  <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="YTUzOWI5ZTMzYTgyZjI3OWMyODg3NGExZWI4ZGI2Y2Q1YjgxYjA4ZDFkMTdjNGRiYzlmYmIzNmNmNDFhNmQ3Nnx7InJlbW90ZV9hZGRyZXNzIjoiMTY3LjIwNS4yMi4xMDUiLCJyZXF1ZXN0X2lkIjoiRTg2MToyNkEzRjo0QUM1ODc6NzQ3QjREOjU5Nzc1Q0E1IiwidGltZXN0YW1wIjoxNTAwOTk0NzI2LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+
+
+  <meta name="html-safe-nonce" content="4319725dba75aef81403f57d684f467a44849c08">
+
+  <meta http-equiv="x-pjax-version" content="336721b94d818b027ec2d57a81b445e8">
+  
+
+      <link href="https://github.com/altmany/export_fig/commits/master.atom" rel="alternate" title="Recent Commits to export_fig:master" type="application/atom+xml">
+
+  <meta name="description" content="export_fig - A MATLAB toolbox for exporting publication quality figures">
+  <meta name="go-import" content="github.com/altmany/export_fig git https://github.com/altmany/export_fig.git">
+
+  <meta content="10243182" name="octolytics-dimension-user_id"><meta content="altmany" name="octolytics-dimension-user_login"><meta content="19007156" name="octolytics-dimension-repository_id"><meta content="altmany/export_fig" name="octolytics-dimension-repository_nwo"><meta content="true" name="octolytics-dimension-repository_public"><meta content="false" name="octolytics-dimension-repository_is_fork"><meta content="19007156" name="octolytics-dimension-repository_network_root_id"><meta content="altmany/export_fig" name="octolytics-dimension-repository_network_root_nwo"><meta content="false" name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown">
+
+
+    <link rel="canonical" href="https://github.com/altmany/export_fig/blob/master/README.md" data-pjax-transient="">
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+  <meta name="u2f-support" content="true">
+
+  </head>
+
+  <body class="logged-out env-production page-blob">
+    
+
+
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="https://github.com/altmany/export_fig/blob/master/README.md#start-of-content" tabindex="1" class="px-2 py-4 show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        <div class="header header-logged-out position-relative f4 py-3" role="banner">
+  <div class="container-lg px-3 clearfix">
+    <div class="d-flex flex-justify-between">
+      <div class="d-flex">
+        <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+          <svg aria-hidden="true" class="octicon octicon-mark-github" height="32" version="1.1" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+        </a>
+
+        <div class="header-sitemenu clearfix">
+            <nav>
+              <ul class="d-flex list-style-none">
+                  <li class="ml-2">
+                    <a href="https://github.com/features" class="js-selected-navigation-item header-navlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features" data-selected-links="/features /features">
+                      Features
+</a>                  </li>
+                  <li class="ml-4">
+                    <a href="https://github.com/business" class="js-selected-navigation-item header-navlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business" data-selected-links="/business /business/security /business/customers /business">
+                      Business
+</a>                  </li>
+
+                  <li class="ml-4">
+                    <a href="https://github.com/explore" class="js-selected-navigation-item header-navlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship /showcases /explore">
+                      Explore
+</a>                  </li>
+
+                  <li class="ml-4">
+                        <a href="https://github.com/marketplace" class="js-selected-navigation-item header-navlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace" data-selected-links=" /marketplace">
+                          Marketplace
+</a>                  </li>
+                  <li class="ml-4">
+                    <a href="https://github.com/pricing" class="js-selected-navigation-item header-navlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing">
+                      Pricing
+</a>                  </li>
+              </ul>
+            </nav>
+        </div>
+      </div>
+
+      <div class="d-flex">
+          <div class="mt-1 mr-3">
+            <div class="header-search scoped-search site-scoped-search js-site-search" role="search">
+  <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/altmany/export_fig/search" class="js-site-search-form" data-scoped-search-url="/altmany/export_fig/search" data-unscoped-search-url="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+    <label class="form-control header-search-wrapper js-chromeless-input-container">
+        <a href="https://github.com/altmany/export_fig/blob/master/README.md" class="header-search-scope no-underline">This repository</a>
+      <input type="text" class="form-control header-search-input js-site-search-focus js-site-search-field is-clearable" data-hotkey="s" name="q" value="" placeholder="Search" aria-label="Search this repository" data-unscoped-placeholder="Search GitHub" data-scoped-placeholder="Search" autocapitalize="off">
+        <input type="hidden" class="js-site-search-type-field" name="type">
+    </label>
+</form></div>
+
+          </div>
+
+        <span class="d-inline-block">
+            <div class="header-navlink px-0 py-2 m-0">
+              <a class="text-bold text-white no-underline" href="https://github.com/login?return_to=%2Faltmany%2Fexport_fig%2Fblob%2Fmaster%2FREADME.md" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+                <span class="text-gray">or</span>
+                <a class="text-bold text-white no-underline" href="https://github.com/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+
+  <div role="main">
+        <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode">
+    <div id="js-repo-pjax-container" data-pjax-container="">
+      
+
+
+
+
+    <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav">
+      <div class="container repohead-details-container">
+
+        <ul class="pagehead-actions">
+  <li>
+      <a href="https://github.com/login?return_to=%2Faltmany%2Fexport_fig" class="btn btn-sm btn-with-count tooltipped tooltipped-n" aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg aria-hidden="true" class="octicon octicon-eye" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+    Watch
+  </a>
+  <a class="social-count" href="https://github.com/altmany/export_fig/watchers" aria-label="66 users are watching this repository">
+    66
+  </a>
+
+  </li>
+
+  <li>
+      <a href="https://github.com/login?return_to=%2Faltmany%2Fexport_fig" class="btn btn-sm btn-with-count tooltipped tooltipped-n" aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg aria-hidden="true" class="octicon octicon-star" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74z"></path></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="https://github.com/altmany/export_fig/stargazers" aria-label="384 users starred this repository">
+      384
+    </a>
+
+  </li>
+
+  <li>
+      <a href="https://github.com/login?return_to=%2Faltmany%2Fexport_fig" class="btn btn-sm btn-with-count tooltipped tooltipped-n" aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg aria-hidden="true" class="octicon octicon-repo-forked" height="16" version="1.1" viewBox="0 0 10 16" width="10"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+        Fork
+      </a>
+
+    <a href="https://github.com/altmany/export_fig/network" class="social-count" aria-label="125 users forked this repository">
+      125
+    </a>
+  </li>
+</ul>
+
+        <h1 class="public ">
+  <svg aria-hidden="true" class="octicon octicon-repo" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+  <span class="author" itemprop="author"><a href="https://github.com/altmany" class="url fn" rel="author">altmany</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a href="https://github.com/altmany/export_fig" data-pjax="#js-repo-pjax-container">export_fig</a></strong>
+
+</h1>
+
+      </div>
+      <div class="container">
+        
+<nav class="reponav js-repo-nav js-sidenav-container-pjax" itemscope="" itemtype="http://schema.org/BreadcrumbList" role="navigation" data-pjax="#js-repo-pjax-container">
+
+  <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="https://github.com/altmany/export_fig" class="js-selected-navigation-item selected reponav-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /altmany/export_fig" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-code" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"></path></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a href="https://github.com/altmany/export_fig/issues" class="js-selected-navigation-item reponav-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /altmany/export_fig/issues" itemprop="url">
+        <svg aria-hidden="true" class="octicon octicon-issue-opened" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">42</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a href="https://github.com/altmany/export_fig/pulls" class="js-selected-navigation-item reponav-item" data-hotkey="g p" data-selected-links="repo_pulls /altmany/export_fig/pulls" itemprop="url">
+      <svg aria-hidden="true" class="octicon octicon-git-pull-request" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">0</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a href="https://github.com/altmany/export_fig/projects" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /altmany/export_fig/projects">
+      <svg aria-hidden="true" class="octicon octicon-project" height="16" version="1.1" viewBox="0 0 15 16" width="15"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"></path></svg>
+      Projects
+      <span class="Counter">0</span>
+</a>
+
+
+    <div class="reponav-dropdown js-menu-container">
+      <button type="button" class="btn-link reponav-item reponav-dropdown js-menu-target " data-no-toggle="" aria-expanded="false" aria-haspopup="true">
+        Insights
+        <svg aria-hidden="true" class="octicon octicon-triangle-down v-align-middle text-gray" height="11" version="1.1" viewBox="0 0 12 16" width="8"><path fill-rule="evenodd" d="M0 5l6 6 6-6z"></path></svg>
+      </button>
+      <div class="dropdown-menu-content js-menu-content">
+        <div class="dropdown-menu dropdown-menu-sw">
+          <a class="dropdown-item" href="https://github.com/altmany/export_fig/pulse" data-skip-pjax="">
+            <svg aria-hidden="true" class="octicon octicon-pulse" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M11.5 8L8.8 5.4 6.6 8.5 5.5 1.6 2.38 8H0v2h3.6l.9-1.8.9 5.4L9 8.5l1.6 1.5H14V8z"></path></svg>
+            Pulse
+          </a>
+          <a class="dropdown-item" href="https://github.com/altmany/export_fig/graphs" data-skip-pjax="">
+            <svg aria-hidden="true" class="octicon octicon-graph" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"></path></svg>
+            Graphs
+          </a>
+        </div>
+      </div>
+    </div>
+</nav>
+
+      </div>
+    </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav">
+  <div class="repository-content">
+
+    
+  <a href="https://github.com/altmany/export_fig/blob/5be2ca48832fa6b91a0a445f5c9648f063e26fe3/README.md" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+  <!-- blob contrib key: blob_contributors:v21:6b4748c132d8e35200fae17a959e6bdd -->
+
+  <div class="file-navigation js-zeroclipboard-container">
+    
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w" type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax="">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg aria-label="Close" class="octicon octicon-x js-menu-close" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="https://github.com/altmany/export_fig/blob/master/README.md#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="https://github.com/altmany/export_fig/blob/master/README.md#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected" href="https://github.com/altmany/export_fig/blob/master/README.md" data-name="master" data-skip-pjax="true" rel="nofollow">
+              <svg aria-hidden="true" class="octicon octicon-check select-menu-item-icon" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="BtnGroup float-right">
+      <a href="https://github.com/altmany/export_fig/find/master" class="js-pjax-capture-input btn btn-sm BtnGroup-item" data-pjax="" data-hotkey="t">
+        Find file
+      </a>
+      <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm BtnGroup-item tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
+    </div>
+    <div class="breadcrumb js-zeroclipboard-target">
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="https://github.com/altmany/export_fig"><span>export_fig</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+    </div>
+  </div>
+
+
+  
+  <div class="commit-tease">
+      <span class="float-right">
+        <a class="commit-tease-sha" href="https://github.com/altmany/export_fig/commit/a397b99c6b885b90f1013bc31337c028d56ad4d7" data-pjax="">
+          a397b99
+        </a>
+        <relative-time datetime="2016-04-22T14:14:14Z" title="Apr 22, 2016, 9:14 PM GMT+7">on Apr 22, 2016</relative-time>
+      </span>
+      <div>
+        <img alt="@altmany" class="avatar" height="20" src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/10243182" width="20">
+        <a href="https://github.com/altmany" class="user-mention" rel="author">altmany</a>
+          <a href="https://github.com/altmany/export_fig/commit/a397b99c6b885b90f1013bc31337c028d56ad4d7" class="message" data-pjax="true" title="Clarifications regarding the PDF lines issue #44">Clarifications regarding the PDF lines issue</a> <a href="https://github.com/altmany/export_fig/issues/44" class="issue-link js-issue-link" data-url="https://github.com/altmany/export_fig/issues/44" data-id="61141431" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#44</a>
+      </div>
+
+    <div class="commit-tease-contributors">
+      <button type="button" class="btn-link muted-link contributors-toggle" data-facebox="#blob_contributors_box">
+        <strong>4</strong>
+         contributors
+      </button>
+          <a class="avatar-link tooltipped tooltipped-s" aria-label="ojwoodford" href="https://github.com/altmany/export_fig/commits/master/README.md?author=ojwoodford"><img alt="@ojwoodford" class="avatar" height="20" src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/2445548" width="20"> </a>
+    <a class="avatar-link tooltipped tooltipped-s" aria-label="altmany" href="https://github.com/altmany/export_fig/commits/master/README.md?author=altmany"><img alt="@altmany" class="avatar" height="20" src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/10243182" width="20"> </a>
+    <a class="avatar-link tooltipped tooltipped-s" aria-label="hyiltiz" href="https://github.com/altmany/export_fig/commits/master/README.md?author=hyiltiz"><img alt="@hyiltiz" class="avatar" height="20" src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/3246683" width="20"> </a>
+    <a class="avatar-link tooltipped tooltipped-s" aria-label="ReadmeCritic" href="https://github.com/altmany/export_fig/commits/master/README.md?author=ReadmeCritic"><img alt="@ReadmeCritic" class="avatar" height="20" src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/15367484" width="20"> </a>
+
+
+    </div>
+
+    <div id="blob_contributors_box" style="display:none">
+      <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
+      <ul class="facebox-user-list" data-facebox-id="facebox-description">
+          <li class="facebox-user-list-item">
+            <img alt="@ojwoodford" height="24" src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/2445548(1)" width="24">
+            <a href="https://github.com/ojwoodford">ojwoodford</a>
+          </li>
+          <li class="facebox-user-list-item">
+            <img alt="@altmany" height="24" src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/10243182(1)" width="24">
+            <a href="https://github.com/altmany">altmany</a>
+          </li>
+          <li class="facebox-user-list-item">
+            <img alt="@hyiltiz" height="24" src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/3246683(1)" width="24">
+            <a href="https://github.com/hyiltiz">hyiltiz</a>
+          </li>
+          <li class="facebox-user-list-item">
+            <img alt="@ReadmeCritic" height="24" src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/15367484(1)" width="24">
+            <a href="https://github.com/ReadmeCritic">ReadmeCritic</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="file">
+    <div class="file-header">
+  <div class="file-actions">
+
+    <div class="BtnGroup">
+      <a href="https://github.com/altmany/export_fig/raw/master/README.md" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
+        <a href="https://github.com/altmany/export_fig/blame/master/README.md" class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b">Blame</a>
+      <a href="https://github.com/altmany/export_fig/commits/master/README.md" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
+    </div>
+
+        <a class="btn-octicon tooltipped tooltipped-nw" href="https://desktop.github.com/" aria-label="Open this file in GitHub Desktop" data-ga-click="Repository, open with desktop, type:windows">
+            <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"></path></svg>
+        </a>
+
+        <button type="button" class="btn-octicon disabled tooltipped tooltipped-nw" aria-label="You must be signed in to make or propose changes">
+          <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"></path></svg>
+        </button>
+        <button type="button" class="btn-octicon btn-octicon-danger disabled tooltipped tooltipped-nw" aria-label="You must be signed in to make or propose changes">
+          <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"></path></svg>
+        </button>
+  </div>
+
+  <div class="file-info">
+      271 lines (195 sloc)
+      <span class="file-info-divider"></span>
+    22.2 KB
+  </div>
+</div>
+
+    
+  <div id="readme" class="readme blob instapaper_body">
+    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-export_fig" class="anchor" href="https://github.com/altmany/export_fig/blob/master/README.md#export_fig" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>export_fig</h1>
+<p>A toolbox for exporting figures from MATLAB to standard image and document formats nicely.</p>
+<h3><a id="user-content-overview" class="anchor" href="https://github.com/altmany/export_fig/blob/master/README.md#overview" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Overview</h3>
+<p>Exporting a figure from MATLAB the way you want it (hopefully the way it looks on screen), can be a real headache for the unitiated, thanks to all the settings that are required, and also due to some eccentricities (a.k.a. features and bugs) of functions such as <code>print</code>. The first goal of export_fig is to make transferring a plot from screen to document, just the way you expect (again, assuming that's as it appears on screen), a doddle.</p>
+<p>The second goal is to make the output media suitable for publication, allowing you to publish your results in the full glory that you originally intended. This includes embedding fonts, setting image compression levels (including lossless), anti-aliasing, cropping, setting the colourspace, alpha-blending and getting the right resolution.</p>
+<p>Perhaps the best way to demonstrate what export_fig can do is with some examples.</p>
+<h3><a id="user-content-examples" class="anchor" href="https://github.com/altmany/export_fig/blob/master/README.md#examples" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Examples</h3>
+<p><strong>Visual accuracy</strong> - MATLAB's exporting functions, namely <code>saveas</code> and <code>print</code>, change many visual properties of a figure, such as size, axes limits and ticks, and background colour, in unexpected and unintended ways. Export_fig aims to faithfully reproduce the figure as it appears on screen. For example:</p>
+<div class="highlight highlight-source-matlab"><pre><span class="pl-c1">plot</span>(<span class="pl-k">cos</span>(<span class="pl-k">linspace</span>(<span class="pl-c1">0</span>, <span class="pl-c1">7</span>, <span class="pl-c1">1000</span>)));
+<span class="pl-c1">set</span>(<span class="pl-c1">gcf</span>, <span class="pl-s"><span class="pl-pds">'</span>Position<span class="pl-pds">'</span></span>, [<span class="pl-c1">100</span> <span class="pl-c1">100</span> <span class="pl-c1">150</span> <span class="pl-c1">150</span>]);
+<span class="pl-c1">saveas</span>(<span class="pl-c1">gcf</span>, <span class="pl-s"><span class="pl-pds">'</span>test.png<span class="pl-pds">'</span></span>);
+export_fig test2.png</pre></div>
+<p>generates the following:</p>
+<table>
+<thead>
+<tr>
+<th align="center">Figure:</th>
+<th align="center">test.png:</th>
+<th align="center">test2.png:</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d362e737461746963666c69636b722e636f6d2f353631362f31353538393234393239315f313665343835633239615f6f5f642e706e67" target="_blank"><img src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d362e737461746963666c69636b722e636f6d2f353631362f31353538393234393239315f313665343835633239615f6f5f642e706e67" alt="" data-canonical-src="https://farm6.staticflickr.com/5616/15589249291_16e485c29a_o_d.png" style="max-width:100%;"></a></td>
+<td align="center"><a href="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333934342f31353430363330323835305f346432653163376166615f6f5f642e706e67" target="_blank"><img src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333934342f31353430363330323835305f346432653163376166615f6f5f642e706e67" alt="" data-canonical-src="https://farm4.staticflickr.com/3944/15406302850_4d2e1c7afa_o_d.png" style="max-width:100%;"></a></td>
+<td align="center"><a href="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d362e737461746963666c69636b722e636f6d2f353630372f31353536383232353437365f386365396264356636625f6f5f642e706e67" target="_blank"><img src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d362e737461746963666c69636b722e636f6d2f353630372f31353536383232353437365f386365396264356636625f6f5f642e706e67" alt="" data-canonical-src="https://farm6.staticflickr.com/5607/15568225476_8ce9bd5f6b_o_d.png" style="max-width:100%;"></a></td>
+</tr></tbody></table>
+<p>Note that the size and background colour of test2.png (the output of export_fig) are the same as those of the on screen figure, in contrast to test.png. Of course, if you want the figure background to be white (or any other colour) in the exported file then you can set this prior to exporting using:</p>
+<div class="highlight highlight-source-matlab"><pre><span class="pl-c1">set</span>(<span class="pl-c1">gcf</span>, <span class="pl-s"><span class="pl-pds">'</span>Color<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>w<span class="pl-pds">'</span></span>);</pre></div>
+<p>Notice also that export_fig crops and anti-aliases (smooths, for bitmaps only) the output by default. However, these options can be disabled; see the Tips section below for details.</p>
+<p><strong>Resolution</strong> - by default, export_fig exports bitmaps at screen resolution. However, you may wish to save them at a different resolution. You can do this using either of two options: <code>-m&lt;val&gt;</code>, where  is a positive real number, magnifies the figure by the factor  for export, e.g. <code>-m2</code> produces an image double the size (in pixels) of the on screen figure; <code>-r&lt;val&gt;</code>, again where  is a positive real number, specifies the output bitmap to have  pixels per inch, the dimensions of the figure (in inches) being those of the on screen figure. For example, using:</p>
+<div class="highlight highlight-source-matlab"><pre>export_fig <span class="pl-c1">test</span>.png -m2.5</pre></div>
+<p>on the figure from the example above generates:</p>
+<p><a href="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333933372f31353539313931303931355f646337303430633437375f6f5f642e706e67" target="_blank"><img src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333933372f31353539313931303931355f646337303430633437375f6f5f642e706e67" alt="" data-canonical-src="https://farm4.staticflickr.com/3937/15591910915_dc7040c477_o_d.png" style="max-width:100%;"></a></p>
+<p>Sometimes you might have a figure with an image in. For example:</p>
+<div class="highlight highlight-source-matlab"><pre><span class="pl-c1">imshow</span>(<span class="pl-k">imread</span>(<span class="pl-s"><span class="pl-pds">'</span>cameraman.tif<span class="pl-pds">'</span></span>))
+<span class="pl-c1">hold</span> <span class="pl-c1">on</span>
+<span class="pl-c1">plot</span>(<span class="pl-c1">0</span>:<span class="pl-c1">255</span>, <span class="pl-k">sin</span>(<span class="pl-k">linspace</span>(<span class="pl-c1">0</span>, <span class="pl-c1">10</span>, <span class="pl-c1">256</span>))*<span class="pl-c1">127</span>+<span class="pl-c1">128</span>);
+<span class="pl-c1">set</span>(<span class="pl-c1">gcf</span>, <span class="pl-s"><span class="pl-pds">'</span>Position<span class="pl-pds">'</span></span>, [<span class="pl-c1">100</span> <span class="pl-c1">100</span> <span class="pl-c1">150</span> <span class="pl-c1">150</span>]);</pre></div>
+<p>generates this figure:</p>
+<p><a href="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333934322f31353538393234393538315f666638376135366133665f6f5f642e706e67" target="_blank"><img src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333934322f31353538393234393538315f666638376135366133665f6f5f642e706e67" alt="" data-canonical-src="https://farm4.staticflickr.com/3942/15589249581_ff87a56a3f_o_d.png" style="max-width:100%;"></a></p>
+<p>Here the image is displayed in the figure at resolution lower than its native resolution. However, you might want to export the figure at a resolution such that the image is output at its native (i.e. original) size (in pixels). Ordinarily this would require some non-trivial computation to work out what that resolution should be, but export_fig has an option to do this for you. Using:</p>
+<div class="highlight highlight-source-matlab"><pre>export_fig <span class="pl-c1">test</span>.png -native</pre></div>
+<p>produces:</p>
+<p><a href="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d362e737461746963666c69636b722e636f6d2f353630342f31353538393234393539315f646132623236353265345f6f5f642e706e67" target="_blank"><img src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d362e737461746963666c69636b722e636f6d2f353630342f31353538393234393539315f646132623236353265345f6f5f642e706e67" alt="" data-canonical-src="https://farm6.staticflickr.com/5604/15589249591_da2b2652e4_o_d.png" style="max-width:100%;"></a></p>
+<p>with the image being the size (in pixels) of the original image. Note that if you want an image to be a particular size, in pixels, in the output (other than its original size) then you can resize it to this size and use the <code>-native</code> option to achieve this.</p>
+<p>All resolution options (<code>-m&lt;val&gt;</code>, <code>-q&lt;val&gt;</code> and <code>-native</code>) correctly set the resolution information in PNG and TIFF files, as if the image were the dimensions of the on screen figure.</p>
+<p><strong>Shrinking dots &amp; dashes</strong> - when exporting figures with dashed or dotted lines using either the ZBuffer or OpenGL (default for bitmaps) renderers, the dots and dashes can appear much shorter, even non-existent, in the output file, especially if the lines are thick and/or the resolution is high. For example:</p>
+<div class="highlight highlight-source-matlab"><pre><span class="pl-c1">plot</span>(<span class="pl-k">sin</span>(<span class="pl-k">linspace</span>(<span class="pl-c1">0</span>, <span class="pl-c1">10</span>, <span class="pl-c1">1000</span>)), <span class="pl-s"><span class="pl-pds">'</span>b:<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>LineWidth<span class="pl-pds">'</span></span>, <span class="pl-c1">4</span>);
+<span class="pl-c1">hold</span> <span class="pl-c1">on</span>
+<span class="pl-c1">plot</span>(<span class="pl-k">cos</span>(<span class="pl-k">linspace</span>(<span class="pl-c1">0</span>, <span class="pl-c1">7</span>, <span class="pl-c1">1000</span>)), <span class="pl-s"><span class="pl-pds">'</span>r--<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>LineWidth<span class="pl-pds">'</span></span>, <span class="pl-c1">3</span>);
+<span class="pl-c1">grid</span> <span class="pl-c1">on</span>
+export_fig <span class="pl-c1">test</span>.png</pre></div>
+<p>generates:</p>
+<p><a href="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333935362f31353539323734373733325f663934336434616130615f6f5f642e706e67" target="_blank"><img src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333935362f31353539323734373733325f663934336434616130615f6f5f642e706e67" alt="" data-canonical-src="https://farm4.staticflickr.com/3956/15592747732_f943d4aa0a_o_d.png" style="max-width:100%;"></a></p>
+<p>This problem can be overcome by using the painters renderer. For example:</p>
+<div class="highlight highlight-source-matlab"><pre>export_fig <span class="pl-c1">test</span>.png -painters</pre></div>
+<p>used on the same figure generates:</p>
+<p><a href="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333934352f31343937313136383530345f373736393266313166355f6f5f642e706e67" target="_blank"><img src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333934352f31343937313136383530345f373736393266313166355f6f5f642e706e67" alt="" data-canonical-src="https://farm4.staticflickr.com/3945/14971168504_77692f11f5_o_d.png" style="max-width:100%;"></a></p>
+<p>Note that not only are the plot lines correct, but the grid lines are too.</p>
+<p><strong>Transparency</strong> - sometimes you might want a figure and axes' backgrounds to be transparent, so that you can see through them to a document (for example a presentation slide, with coloured or textured background) that the exported figure is placed in. To achieve this, first (optionally) set the axes' colour to 'none' prior to exporting, using:</p>
+<div class="highlight highlight-source-matlab"><pre><span class="pl-c1">set</span>(<span class="pl-c1">gca</span>, <span class="pl-s"><span class="pl-pds">'</span>Color<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>none<span class="pl-pds">'</span></span>); <span class="pl-c"><span class="pl-c">%</span> Sets axes background</span></pre></div>
+<p>then use export_fig's <code>-transparent</code> option when exporting:</p>
+<div class="highlight highlight-source-matlab"><pre>export_fig <span class="pl-c1">test</span>.png -transparent</pre></div>
+<p>This will make the background transparent in PDF, EPS and PNG outputs. You can additionally save fully alpha-blended semi-transparent patch objects to the PNG format. For example:</p>
+<div class="highlight highlight-source-matlab"><pre>logo;
+<span class="pl-c1">alpha</span>(<span class="pl-c1">0.5</span>);</pre></div>
+<p>generates a figure like this:</p>
+<p><a href="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333933332f31353430353239303333395f623038646533333532385f6f5f642e706e67" target="_blank"><img src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333933332f31353430353239303333395f623038646533333532385f6f5f642e706e67" alt="" data-canonical-src="https://farm4.staticflickr.com/3933/15405290339_b08de33528_o_d.png" style="max-width:100%;"></a></p>
+<p>If you then export this to PNG using the <code>-transparent</code> option you can then put the resulting image into, for example, a presentation slide with fancy, textured background, like so:</p>
+<p><a href="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d362e737461746963666c69636b722e636f6d2f353539392f31353430363330323932305f353962656165666666315f6f5f642e706e67" target="_blank"><img src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d362e737461746963666c69636b722e636f6d2f353539392f31353430363330323932305f353962656165666666315f6f5f642e706e67" alt="" data-canonical-src="https://farm6.staticflickr.com/5599/15406302920_59beaefff1_o_d.png" style="max-width:100%;"></a></p>
+<p>and the image blends seamlessly with the background.</p>
+<p><strong>Image quality</strong> - when publishing images of your results, you want them to look as good as possible. By default, when outputting to lossy file formats (PDF, EPS and JPEG), export_fig uses a high quality setting, i.e. low compression, for images, so little information is lost. This is in contrast to MATLAB's print and saveas functions, whose default quality settings are poor. For example:</p>
+<div class="highlight highlight-source-matlab"><pre>A = <span class="pl-c1">im2double</span>(<span class="pl-k">imread</span>(<span class="pl-s"><span class="pl-pds">'</span>peppers.png<span class="pl-pds">'</span></span>));
+B = <span class="pl-k">randn</span>(<span class="pl-k">ceil</span>(<span class="pl-k">size</span>(A, <span class="pl-c1">1</span>)/<span class="pl-c1">6</span>), <span class="pl-k">ceil</span>(<span class="pl-k">size</span>(A, <span class="pl-c1">2</span>)/<span class="pl-c1">6</span>), <span class="pl-c1">3</span>) <span class="pl-k">*</span> <span class="pl-c1">0.1</span>;
+B = <span class="pl-k">cat</span>(<span class="pl-c1">3</span>, <span class="pl-k">kron</span>(B(:,:,<span class="pl-c1">1</span>), <span class="pl-k">ones</span>(<span class="pl-c1">6</span>)), <span class="pl-k">kron</span>(B(:,:,<span class="pl-c1">2</span>), <span class="pl-k">ones</span>(<span class="pl-c1">6</span>)), <span class="pl-k">kron</span>(B(:,:,<span class="pl-c1">3</span>), <span class="pl-k">ones</span>(<span class="pl-c1">6</span>)));
+B = A <span class="pl-k">+</span> B(<span class="pl-c1">1</span>:<span class="pl-k">size</span>(A, <span class="pl-c1">1</span>),<span class="pl-c1">1</span>:<span class="pl-k">size</span>(A, <span class="pl-c1">2</span>),:);
+<span class="pl-c1">imshow</span>(B);
+<span class="pl-c1">print</span> -dpdf <span class="pl-c1">test</span>.pdf</pre></div>
+<p>generates a PDF file, a sub-window of which looks (when zoomed in) like this:</p>
+<p><a href="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d362e737461746963666c69636b722e636f6d2f353631332f31353430353239303330395f383831623237373464365f6f5f642e706e67" target="_blank"><img src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d362e737461746963666c69636b722e636f6d2f353631332f31353430353239303330395f383831623237373464365f6f5f642e706e67" alt="" data-canonical-src="https://farm6.staticflickr.com/5613/15405290309_881b2774d6_o_d.png" style="max-width:100%;"></a></p>
+<p>while the command</p>
+<div class="highlight highlight-source-matlab"><pre>export_fig <span class="pl-c1">test</span>.pdf</pre></div>
+<p>on the same figure produces this:</p>
+<p><a href="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333934372f31343937313136383137345f363837343733313333665f6f5f642e706e67" target="_blank"><img src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333934372f31343937313136383137345f363837343733313333665f6f5f642e706e67" alt="" data-canonical-src="https://farm4.staticflickr.com/3947/14971168174_687473133f_o_d.png" style="max-width:100%;"></a></p>
+<p>While much better, the image still contains some compression artifacts (see the low level noise around the edge of the pepper). You may prefer to export with no artifacts at all, i.e. lossless compression. Alternatively, you might need a smaller file, and be willing to accept more compression. Either way, export_fig has an option that can suit your needs: <code>-q&lt;val&gt;</code>, where  is a number from 0-100, will set the level of lossy image compression (again in PDF, EPS and JPEG outputs only; other formats are lossless), from high compression (0) to low compression/high quality (100). If you want lossless compression in any of those formats then specify a  greater than 100. For example:</p>
+<div class="highlight highlight-source-matlab"><pre>export_fig <span class="pl-c1">test</span>.pdf -q101</pre></div>
+<p>again on the same figure, produces this:</p>
+<p><a href="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d362e737461746963666c69636b722e636f6d2f353630382f31353430353830333930385f393334353132633166655f6f5f642e706e67" target="_blank"><img src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d362e737461746963666c69636b722e636f6d2f353630382f31353430353830333930385f393334353132633166655f6f5f642e706e67" alt="" data-canonical-src="https://farm6.staticflickr.com/5608/15405803908_934512c1fe_o_d.png" style="max-width:100%;"></a></p>
+<p>Notice that all the noise has gone.</p>
+<h3><a id="user-content-tips" class="anchor" href="https://github.com/altmany/export_fig/blob/master/README.md#tips" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tips</h3>
+<p><strong>Anti-aliasing</strong> - the anti-aliasing which export_fig applies to bitmap outputs by default makes the images look nice, but it can also blur images and increase exporting time and memory requirements, so you might not always want it. You can set the level of anti-aliasing by using the <code>-a&lt;val&gt;</code> option, where  is 1 (no anti-aliasing), 2, 3 (default) or 4 (maximum anti-aliasing).</p>
+<p><strong>Cropping</strong> - by default, export_fig crops its output to minimize the amount of empty space around the figure. If you'd prefer the figure to be uncropped, and instead have the same appearance (in terms of border width) as the on screen figure, then use the <code>-nocrop</code> option.</p>
+<p><strong>Colourspace</strong> - by default, export_fig generates files in the RGB <a href="https://en.wikipedia.org/wiki/Color_space">colourspace</a>. However, you can also export in greyscale or the CMYK colourspace, using the <code>-grey</code> (or <code>-gray</code>) and <code>-cmyk</code> options respectively. The CMYK option is useful for publishers who require documents in this colourspace, but the option is only supported for PDF, EPS and TIFF files.</p>
+<p><strong>Specifying a target directory</strong> - you can get export_fig to save output files to any directory (for which you have write permission), simply by specifying the full or relative path in the filename. For example:</p>
+<div class="highlight highlight-source-matlab"><pre>export_fig ../subdir/fig.png;
+export_fig(<span class="pl-s"><span class="pl-pds">'</span>C:/Users/Me/Documents/figures/myfig<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>-pdf<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>-png<span class="pl-pds">'</span></span>);</pre></div>
+<p><strong>Variable file names</strong> - often you might want to save a series of figures in a for loop, each with a different name. For this you can use the functional form of input arguments, i.e. <code>export_fig(arg1, arg2)</code>,  and construct the filename string in a variable. Here's an example of this:</p>
+<div class="highlight highlight-source-matlab"><pre><span class="pl-k">for</span> a = <span class="pl-c1">1</span>:<span class="pl-c1">5</span>
+    <span class="pl-c1">plot</span>(<span class="pl-k">rand</span>(<span class="pl-c1">5</span>, <span class="pl-c1">2</span>));
+    export_fig(<span class="pl-k">sprintf</span>(<span class="pl-s"><span class="pl-pds">'</span>plot<span class="pl-cce">%d</span>.png<span class="pl-pds">'</span></span>, a));
+<span class="pl-k">end</span></pre></div>
+<p>When using the functional form like this, be sure to put string variables in quotes:</p>
+<div class="highlight highlight-source-matlab"><pre>export_fig(<span class="pl-k">sprintf</span>(<span class="pl-s"><span class="pl-pds">'</span>plot<span class="pl-cce">%d</span><span class="pl-pds">'</span></span>, a), <span class="pl-s"><span class="pl-pds">'</span>-a1<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>-pdf<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>-png<span class="pl-pds">'</span></span>);</pre></div>
+<p><strong>Specifying the figure/axes</strong> - if you have mutiple figures open you can specify which figure to export using its handle:</p>
+<div class="highlight highlight-source-matlab"><pre>export_fig(figure_handle, filename);</pre></div>
+<p>Equally, if your figure contains several subplots then you can export just one of them by giving export_fig the handle to the relevant axes:</p>
+<div class="highlight highlight-source-matlab"><pre>export_fig(axes_handle, filename);</pre></div>
+<p><strong>Multiple formats</strong> - save time by exporting to multiple formats simultaneously. E.g.:</p>
+<div class="highlight highlight-source-matlab"><pre>export_fig filename -<span class="pl-c1">pdf</span> -<span class="pl-c1">eps</span> -png -jpg -tiff</pre></div>
+<p><strong>Other file formats</strong> - if you'd like to save your figure to a bitmap format that is not supported by export_fig, e.g. animated GIF, PPM file or a frame in a movie, then you can use export_fig to output the image, and optionally an alpha-matte, to the workspace. E.g.:</p>
+<div class="highlight highlight-source-matlab"><pre>frame = export_fig;</pre></div>
+<p>or</p>
+<div class="highlight highlight-source-matlab"><pre>[frame, <span class="pl-c1">alpha</span>] = export_fig;</pre></div>
+<p>These variables can then be saved to other image formats using other functions, such as imwrite.</p>
+<p><strong>Appending to a file</strong> - you can use the <code>-append</code> option to append the figure to the end of an image/document, if it already exists. This is supported for PDF and TIFF files only. Note that if you wish to append a lot of figures consecutively to a PDF, it can be more efficient to save all the figures to PDF separately then append them all in one go at the end (e.g. using <a href="http://www.mathworks.com/matlabcentral/fileexchange/31215-appendpdfs">append_pdfs</a>).</p>
+<p><strong>Output to clipboard</strong> - you can use the <code>-clipboard</code> option to copy the specified figure or axes to the system clipboard, for easy paste into other documents (e.g., Word or PowerPoint). Note that the image is copied in bitmap (not vector) format.</p>
+<p><strong>Font size</strong> - if you want to place an exported figure in a document with the font a particular size then you need to set the font to that size in the figure, and not resize the output of export_fig in the document. To avoid resizing, simply make sure that the on screen figure is the size you want the output to be in the document before exporting.</p>
+<p><strong>Renderers</strong> - MATLAB has three renderers for displaying and exporting figures: painters, OpenGL and ZBuffer. The different renderers have different <a href="http://www.mathworks.com/access/helpdesk/help/techdoc/creating_plots/f3-84337.html#f3-102410">features</a>, so if you aren't happy with the result from one renderer try another. By default, vector formats (i.e. PDF and EPS outputs) use the painters renderer, while other formats use the OpenGL renderer. Non-default renderers can be selected by using one of these three export_fig input options: <code>-painters</code>, <code>-opengl</code>, <code>-zbuffer</code>:</p>
+<div class="highlight highlight-source-matlab"><pre>export_fig <span class="pl-c1">test</span>.png -painters</pre></div>
+<p><strong>Artifacts</strong> - sometimes the output that you get from export_fig is not what you expected. If an output file contains artifacts that aren't in the on screen figure then make sure that the renderer used for rendering the figure on screen is the same as that used for exporting. To set the renderer used to display the figure, use:</p>
+<div class="highlight highlight-source-matlab"><pre><span class="pl-c1">set</span>(figure_handle, <span class="pl-s"><span class="pl-pds">'</span>Renderer<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>opengl<span class="pl-pds">'</span></span>);</pre></div>
+<p>After matching the two renderers, if the artifact appears in the on screen figure then you'll need to fix that before exporting. Alternatively you can try changing the renderer used by export_fig. Finally check that it isn't one of the known issues mentioned in the section below.</p>
+<p><strong>Smoothed/interpolated images in output PDF</strong> - if you produce a PDF using export_fig and images in the PDF look overly smoothed or interpolated, this is because the software you are using to view the PDF is smoothing or interpolating the image data. The image is not smoothed in the PDF file itself. If the software has an option to disable this feature, you should select it. Alternatively, use another PDF viewer that doesn't exhibit this problem.</p>
+<p><strong>Locating Ghostscript/pdftops</strong> - You may find a dialogue box appears when using export_fig, asking you to locate either <a href="http://www.ghostscript.com/">Ghostscript</a> or <a href="http://www.foolabs.com/xpdf">pdftops</a>. These are separate applications which export_fig requires to perform certain functions. If such a dialogue appears it is because export_fig can't find the application automatically. This is because you either haven't installed it, or it isn't in the normal place. Make sure you install the applications correctly first. They can be downloaded from the following places:</p>
+<ol>
+<li>Ghostscript:     <a href="http://www.ghostscript.com/">www.ghostscript.com</a></li>
+<li>pdftops (install the Xpdf package): <a href="http://www.foolabs.com/xpdf">www.foolabs.com/xpdf</a></li>
+</ol>
+<p>If you choose to install them in a non-default location then point export_fig
+to this location using the dialogue box.</p>
+<p><strong>Undefined function errors</strong> - If you download and run export_fig and get an error similar to this:</p>
+<pre><code>??? Undefined function or method 'print2array' for input arguments of type 'double'.
+</code></pre>
+<p>then you are missing one or more of the files that come in the export_fig package. Make sure that you click the "Get from GitHub" button at the top-right of the download <a href="http://www.mathworks.co.uk/matlabcentral/fileexchange/23629-exportfig">page</a>, then extract all the files in the zip file to the same directory. You should then have all the necessary files.</p>
+<h3><a id="user-content-known-issues" class="anchor" href="https://github.com/altmany/export_fig/blob/master/README.md#known-issues" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Known issues</h3>
+<p>There are lots of problems with MATLAB's exporting functions, especially <code>print</code>. Export_fig is simply a glorified wrapper for MATLAB's <code>print</code> function, and doesn't solve all of its bugs (yet?). Some of the problems I know about are:</p>
+<p><strong>Fonts</strong> - when using the painters renderer, MATLAB can only export a small number of fonts, details of which can be found <a href="http://www.mathworks.com/help/releases/R2014a/matlab/creating_plots/choosing-a-printer-driver.html#f3-96545">here</a>. Export_fig attempts to correct font names in the resulting EPS file (up to a maximum of 11 different fonts in one figure), but this is not always guaranteed to work. In particular, the text positions will be affected. It also does not work for text blocks where the 'Interpreter' property is set to 'latex'.</p>
+<p>Also, when using the painters renderer, ghostscript will sometimes throw an error such as <code>Error: /undefined in /findfont</code>. This suggests that ghostscript could not find a definition file for one of your fonts. One possible fix for this is to make sure the file <code>EXPORT_FIG_PATH/.ignore/gs_font_path.txt</code> exists and contains a list of paths to the folder(s) containing the necessary font definitions (make sure that they are TrueType definitions!), separated by a semicolon.</p>
+<p><strong>RGB color data not yet supported in Painter's mode</strong> - you will see this as a warning if you try to export a figure which contains patch objects whose face or vertex colors are specified as an RGB colour, rather than an index into the colormap, using the painters renderer (the default renderer for vector output). This problem can arise if you use <code>pcolor</code>, for example. This is a problem with MATLAB's painters renderer, which also affects <code>print</code>; there is currently no fix available in export_fig (other than to export to bitmap). The suggested workaround is to avoid colouring patches using RGB. First, try to use colours in the figure's colourmap (instructions <a href="http://www.mathworks.co.uk/support/solutions/en/data/1-6OTPQE/">here</a>) - change the colourmap, if necessary. If you are using <code>pcolor</code>, try using <a href="http://www.mathworks.com/matlabcentral/fileexchange/11368">uimagesc</a> (on the file exchange) instead.</p>
+<p><strong>Dashed contour lines appear solid</strong> - when using the painters renderer, MATLAB cannot generate dashed lines using the <code>contour</code> function (either on screen or in exported PDF and EPS files). Details can be found <a href="http://www.mathworks.com/support/solutions/en/data/1-14PPHB/?solution=1-14PPHB">here</a>.</p>
+<p><strong>Text size</strong> - when using the OpenGL or ZBuffer renderers, large text can be resized relative to the figure when exporting at non-screen-resolution (including using anti-alising at screen resolution). This is a feature of MATLAB's <code>print</code>function. In this case, try using the <code>-painters</code> option.</p>
+<p><strong>Lighting and transparency</strong> - when using the painters renderer, transparency and lighting effects are not supported. Sorry, but this is an inherent feature of MATLAB's painters renderer. To find out more about the capabilities of each rendering method, see <a href="http://www.mathworks.com/access/helpdesk/help/techdoc/creating_plots/f3-84337.html#f3-102410">here</a>. You can still export transparent objects to vector format (SVG) using the excellent <a href="http://www.mathworks.com/matlabcentral/fileexchange/7401">plot2svg</a> package, then convert this to PDF, for example using <a href="http://inkscape.org/">Inkscape</a>. However, it can't handle lighting.</p>
+<p><strong>Lines in patch objects</strong> - when exporting patch objects to PDF using the painters renderer (default), sometimes the output can appear to have lines across the middle of rectangular patches; these lines are the colour of the background, as if there is a crack in the patch, allowing you to see through. This appears to be due to bugs in MATLAB's internal vector rendering code. These lines can often be removed from the PDF using software such as <a href="https://inkscape.org/">InkScape</a>. Sometimes disabling anti-aliasing in the PDF-reader software can get rid of the lines (<a href="https://github.com/altmany/export_fig/issues/44">discussion</a>).</p>
+<p><strong>Out of memory</strong> - if you run into memory issues when using export_fig, some ways to get round this are:</p>
+<ol>
+<li>Reduce the level of anti-aliasing.</li>
+<li>Reduce the size of the figure.</li>
+<li>Reduce the export resolution (dpi).</li>
+<li>Change the renderer to painters or ZBuffer.</li>
+</ol>
+<p><strong>Errors</strong> - the other common type of errors people get with export_fig are OpenGL errors. This isn't a fault of export_fig, but either a bug in MATLAB's <code>print</code>, or your graphics driver getting itself into a state. Always make sure your graphics driver is up-to-date. If it still doesn't work, try using the ZBuffer renderer.</p>
+<h3><a id="user-content-raising-issues" class="anchor" href="https://github.com/altmany/export_fig/blob/master/README.md#raising-issues" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Raising issues</h3>
+<p>If you think you have found a genuine error or issue with export_fig <strong>that is not listed above</strong>, first ensure that the figure looks correct on screen when rendered using the renderer that export_fig is set to use (e.g. if exporting to PDF or EPS, does the figure look correct on screen using the painters renderer, or if exporting to bitmap, does the figure look correct on screen using the OpenGL renderer?). If it looks wrong then the problem is there, and I cannot help (other than to suggest you try exporting using a different renderer).</p>
+<p>Secondly, if exporting to bitmap, do try all the renderers (i.e. try the options <code>-opengl</code>, <code>-zbuffer</code> and <code>-painters</code> separately), to see if one of them does produce an acceptable output, and if so, use that.</p>
+<p>If this still does not help, then ensure that you are using the latest version of export_fig, which is available <a href="https://github.com/altmany/export_fig/archive/master.zip">here</a>.</p>
+<p>If the figure looks correct on screen, but an error exists in the exported output (which cannot be solved using a different renderer) then please feel free to raise an <a href="https://github.com/altmany/export_fig/issues">issue</a>. Please be sure to include the .fig file, the export_fig command you use, the output you get, and a description of what you expected. I can't promise anything, but if it's easy to fix I may indeed do it. Often I will find that the error is due to a bug in MATLAB's <code>print</code> function, in which case I will suggest you submit it as a bug to TheMathWorks, and inform me of any fix they suggest. Also, if there's a feature you'd like that isn't supported please tell me what it is and I'll consider implementing it.</p>
+<h3><a id="user-content-and-finally" class="anchor" href="https://github.com/altmany/export_fig/blob/master/README.md#and-finally" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>And finally...</h3>
+<p><a href="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333935362f31353539313931313435355f623930303862643737655f6f5f642e6a7067" target="_blank"><img src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/68747470733a2f2f6661726d342e737461746963666c69636b722e636f6d2f333935362f31353539313931313435355f623930303862643737655f6f5f642e6a7067" alt="" data-canonical-src="https://farm4.staticflickr.com/3956/15591911455_b9008bd77e_o_d.jpg" style="max-width:100%;"></a></p>
+<p>If you've ever wondered what's going on in the logo on the export_fig download page (reproduced here), then this explanantion is for you. The logo is designed to demonstrate as many of export_fig's features as possible:</p>
+<p>Given a figure containing a translucent mesh (top right), export_fig can export to pdf (bottom centre), which allows the figure to be zoomed-in without losing quality (because it's a vector graphic), but isn't able to reproduce the translucency. Also, depending on the PDF viewer program, small gaps appear between the patches, which are seen here as thin white lines.</p>
+<p>By contrast, when exporting to png (top left), translucency is preserved (see how the graphic below shows through), and the figure is anti-aliased. However, zooming-in does not reveal more detail since png is a bitmap format. Also, lines appear less sharp than in the pdf output.</p>
+</article>
+  </div>
+
+  </div>
+
+  <button type="button" data-facebox="#jump-to-line" data-facebox-class="linejump" data-hotkey="l" class="d-none">Jump to Line</button>
+  <div id="jump-to-line" style="display:none">
+    <!-- '"` --><!-- </textarea></xmp> --><form accept-charset="UTF-8" action="https://github.com/altmany/export_fig/blob/master/README.md" class="js-jump-to-line-form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+      <input class="form-control linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line…" aria-label="Jump to line" autofocus="">
+      <button type="submit" class="btn">Go</button>
+</form>  </div>
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+      
+<div class="container-lg site-footer-container">
+  <div class="site-footer " role="contentinfo">
+    <ul class="site-footer-links float-right">
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact GitHub</a></li>
+      <li><a href="https://developer.github.com/" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com/" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com/" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+
+    </ul>
+
+    <a href="https://github.com/" aria-label="Homepage" class="site-footer-mark" title="GitHub">
+      <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+    <ul class="site-footer-links">
+      <li>© 2017 <span title="0.08254s from unicorn-2282836731-x0lfd">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a href="https://help.github.com/" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg>
+    <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+    </button>
+    You can't perform that action at this time.
+  </div>
+
+
+    
+    <script crossorigin="anonymous" integrity="sha256-Y5HMEMBQMWp3iXearCgSI/BtySIb81R+LZyfNfd2gmM=" src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/frameworks-6391cc10c050316a7789779aac281223f06dc9221bf3547e2d9c9f35f7768263.js.download"></script>
+    
+    <script async="async" crossorigin="anonymous" integrity="sha256-Ttne3/fXfF2lqObAsZAfAy/g778DmKUVely6dfHlQZQ=" src="./export_fig_README.md at master · altmany_export_fig · GitHub_files/github-4ed9dedff7d77c5da5a8e6c0b1901f032fe0efbf0398a5157a5cba75f1e54194.js.download"></script>
+    
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg aria-hidden="true" class="octicon octicon-alert" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M8.865 1.52c-.18-.31-.51-.5-.87-.5s-.69.19-.87.5L.275 13.5c-.18.31-.18.69 0 1 .19.31.52.5.87.5h13.7c.36 0 .69-.19.86-.5.17-.31.18-.69.01-1L8.865 1.52zM8.995 13h-2v-2h2v2zm0-3h-2V6h2v4z"></path></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="https://github.com/altmany/export_fig/blob/master/README.md">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="https://github.com/altmany/export_fig/blob/master/README.md">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg aria-hidden="true" class="octicon octicon-x" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48z"></path></svg>
+    </button>
+  </div>
+</div>
+
+
+  
+
+
+</body></html>
